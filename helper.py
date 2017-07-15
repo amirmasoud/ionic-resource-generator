@@ -39,7 +39,7 @@ def end_log(i):
     """
     global step
     progress()
-    print colored(i["name"] + ' ' + str(i["width"]) + 'x' + str(i["height"]), 'green')
+    print(colored(i["name"] + ' ' + str(i["width"]) + 'x' + str(i["height"]), 'green'))
 
 def start_log(i):
     """ Print start of a step.
@@ -47,7 +47,7 @@ def start_log(i):
     Keyword arguments:
     i -- information about generated image
     """
-    print colored('Generating ' + i["name"] + ' ' + str(i["width"]) + 'x' + str(i["height"]), 'yellow')
+    print(colored('Generating ' + i["name"] + ' ' + str(i["width"]) + 'x' + str(i["height"]), 'yellow'))
 
 def crop(image, width, height):
     """ Crop an image with given width and height.

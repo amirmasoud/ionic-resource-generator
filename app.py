@@ -4,7 +4,7 @@ from PIL import Image
 import json
 import sys
 
-print colored('starting...', 'green')
+print(colored('starting...', 'green'))
 
 # Read config.josn. All general config files are in this file. you can change 
 # them to reflect your custom settings for generated output.
@@ -31,7 +31,7 @@ for i in data["windows"]["icon"]:
     image = src.resize((size, size), Image.ANTIALIAS)
     # Windows needs wide icons. Add transparent padding around the area.
     background = Image.new('RGBA', (i["width"], i["height"]), (0, 0, 0, 1))
-    background.paste(image, ((i["width"]/2) - (image.size[0]/2), 0), image)
+    background.paste(image, (int((i["width"]/2) - (image.size[0]/2)), 0), image)
     name = data["windows_path"] + 'icon/' + i["name"] + '.png'
     background.save(name, 'png', optmize=False)
     end_log(i)
@@ -76,7 +76,7 @@ for i in data["windows"]["splash"]:
     image.save(data["windows_path"] + 'splash/' + i["name"] + '.jpg',  'jpeg')
     end_log(i)
 
-print colored('Finished', 'green')
-print colored('Generated Android files are in "' + str(data["android_path"]) + '" directory.', 'green')
-print colored('Generated iOS files are in "' + str(data["ios_path"]) + '" directory.', 'green')
-print colored('Generated Windows files are in "' + str(data["windows_path"]) + '" directory.', 'green')
+print(colored('Finished', 'green'))
+print(colored('Generated Android files are in "' + str(data["android_path"]) + '" directory.', 'green'))
+print(colored('Generated iOS files are in "' + str(data["ios_path"]) + '" directory.', 'green'))
+print(colored('Generated Windows files are in "' + str(data["windows_path"]) + '" directory.', 'green'))
