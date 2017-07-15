@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/amirmasoud/ionic-resource-generator.svg?branch=master)](https://travis-ci.org/amirmasoud/ionic-resource-generator)
+
 # Ionic 2 Icon & Splash Generator
 Icons and splashes generator for Ionic 2 applications.
 
@@ -9,7 +11,7 @@ Icons and splashes generator for Ionic 2 applications.
 * From command line, run `python app.py`
 
 # Requirement
-- Python 2.7+/3+
+- Python 2.6+/3+
 
 ### Author
 Amirmasoud Sheydaei
