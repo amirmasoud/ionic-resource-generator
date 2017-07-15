@@ -1,0 +1,329 @@
+{
+    "ios_path": "resources/ios/",
+    "android_path": "resources/android/",
+    "windows_path": "resources/windows/",
+    "fill_color": "#fff",
+    "android": {
+        "icon": [
+            {
+                "name": "drawable-ldpi-icon",
+                "width": 36,
+                "height": 36
+            },
+            {
+                "name": "drawable-mdpi-icon",
+                "width": 48,
+                "height": 48
+            },
+            {
+                "name": "drawable-hdpi-icon",
+                "width": 72,
+                "height": 72
+            },
+            {
+                "name": "drawable-xhdpi-icon",
+                "width": 96,
+                "height": 96
+            },
+            {
+                "name": "drawable-xxhdpi-icon",
+                "width": 144,
+                "height": 144
+            },
+            {
+                "name": "drawable-xxxhdpi-icon",
+                "width": 192,
+                "height": 192
+            }
+        ],
+        "splash": [
+            {
+                "name": "drawable-land-hdpi-screen",
+                "width": 800,
+                "height": 480
+            },
+            {
+                "name": "drawable-land-mdpi-screen",
+                "width": 480,
+                "height": 320
+            },
+            {
+                "name": "drawable-land-xhdpi-screen",
+                "width": 1280,
+                "height": 720
+            },
+            {
+                "name": "drawable-land-xxhdpi-screen",
+                "width": 1600,
+                "height": 960
+            },
+            {
+                "name": "drawable-land-xxxhdpi-screen",
+                "width": 1920,
+                "height": 1280
+            },
+            {
+                "name": "drawable-port-hdpi-screen",
+                "width": 480,
+                "height": 800
+            },
+            {
+                "name": "drawable-port-ldpi-screen",
+                "width": 240,
+                "height": 320
+            },
+            {
+                "name": "drawable-port-mdpi-screen",
+                "width": 320,
+                "height": 480
+            },
+            {
+                "name": "drawable-port-xhdpi-screen",
+                "width": 720,
+                "height": 1280
+            },
+            {
+                "name": "drawable-port-xxhdpi-screen",
+                "width": 960,
+                "height": 1600
+            },
+            {
+                "name": "drawable-port-xxxhdpi-screen",
+                "width": 1280,
+                "height": 1920
+            }
+        ]
+    },
+    "ios": {
+        "icon": [
+            {
+                "name": "icon-40",
+                "width": 40,
+                "height": 40
+            },
+            {
+                "name": "icon-40@2x",
+                "width": 80,
+                "height": 80
+            },
+            {
+                "name": "icon-40@3x",
+                "width": 120,
+                "height": 120
+            },
+            {
+                "name": "icon-50",
+                "width": 50,
+                "height": 50
+            },
+            {
+                "name": "icon-50@2x",
+                "width": 100,
+                "height": 100
+            },
+            {
+                "name": "icon-60",
+                "width": 60,
+                "height": 60
+            },
+            {
+                "name": "icon-60",
+                "width": 60,
+                "height": 60
+            },
+            {
+                "name": "icon-60@2x",
+                "width": 120,
+                "height": 120
+            },
+            {
+                "name": "icon-60@3x",
+                "width": 180,
+                "height": 180
+            },
+            {
+                "name": "icon-72",
+                "width": 72,
+                "height": 72
+            },
+            {
+                "name": "icon-72@2x",
+                "width": 144,
+                "height": 144
+            },
+            {
+                "name": "icon-76",
+                "width": 76,
+                "height": 76
+            },
+            {
+                "name": "icon-76@2x",
+                "width": 152,
+                "height": 152
+            },
+            {
+                "name": "icon-83.5@2x",
+                "width": 167,
+                "height": 167
+            },
+            {
+                "name": "icon-small",
+                "width": 29,
+                "height": 29
+            },
+            {
+                "name": "icon-small@2x",
+                "width": 58,
+                "height": 58
+            },
+            {
+                "name": "icon-small@3x",
+                "width": 87,
+                "height": 87
+            },
+            {
+                "name": "icon",
+                "width": 57,
+                "height": 57
+            },
+            {
+                "name": "icon@2x",
+                "width": 114,
+                "height": 114
+            }
+        ],
+        "splash": [
+            {
+                "name": "Default-568h@2x~iphone",
+                "width": 640,
+                "height": 1136
+            },
+            {
+                "name": "Default-667h",
+                "width": 750,
+                "height": 1334
+            },
+            {
+                "name": "Default-736h",
+                "width": 1242,
+                "height": 2208
+            },
+            {
+                "name": "Default-Landscape-736h",
+                "width": 2208,
+                "height": 1242
+            },
+            {
+                "name": "Default-Landscape@~ipadpro",
+                "width": 2732,
+                "height": 2048
+            },
+            {
+                "name": "Default-Landscape@2x~ipad",
+                "width": 2048,
+                "height": 1536
+            },
+            {
+                "name": "Default-Landscape~ipad",
+                "width": 1024,
+                "height": 768
+            },
+            {
+                "name": "Default-Portrait@~ipadpro",
+                "width": 2048,
+                "height": 2732
+            },
+            {
+                "name": "Default-Portrait@2x~ipad",
+                "width": 1536,
+                "height": 2048
+            },
+            {
+                "name": "Default-Portrait~ipad",
+                "width": 768,
+                "height": 1024
+            },
+            {
+                "name": "Default@2x~iphone",
+                "width": 640,
+                "height": 960
+            },
+            {
+                "name": "Default~iphone",
+                "width": 320,
+                "height": 480
+            }
+        ]
+    },
+    "windows": {
+        "icon": [
+            {
+                "name": "logo",
+                "width": 150,
+                "height": 150
+            },
+            {
+                "name": "smalllogo",
+                "width": 30,
+                "height": 30
+            },
+            {
+                "name": "storelogo",
+                "width": 50,
+                "height": 50
+            },
+            {
+                "name": "Square44x44Logo.scale-100",
+                "width": 44,
+                "height": 44
+            },
+            {
+                "name": "Square44x44Logo.scale-240",
+                "width": 106,
+                "height": 106
+            },
+            {
+                "name": "Square70x70Logo.scale-100",
+                "width": 70,
+                "height": 70
+            },
+            {
+                "name": "Square71x71Logo.scale-100",
+                "width": 71,
+                "height": 71
+            },
+            {
+                "name": "Square71x71Logo.scale-240",
+                "width": 170,
+                "height": 170
+            },
+            {
+                "name": "Square150x150Logo.scale-240",
+                "width": 360,
+                "height": 360
+            },
+            {
+                "name": "Square310x310Logo.scale-100",
+                "width": 310,
+                "height": 310
+            },
+            {
+                "name": "Wide310x150Logo.scale-100",
+                "width": 310,
+                "height": 150
+            },
+            {
+                "name": "Wide310x150Logo.scale-240",
+                "width": 744,
+                "height": 360
+            }
+        ],
+        "splash": [
+            {
+                "name": "Portait",
+                "width": 480,
+                "height": 800
+            }
+        ]
+    }
+}
